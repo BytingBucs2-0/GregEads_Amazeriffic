@@ -1,0 +1,65 @@
+body {
+	background:#f9e933;
+	font-family: 'Droid Sans', sans-serif;
+	font-size:100%;
+	
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header, main, footer {
+	min-width:855px;
+}
+
+header.container, main.container, footer.container {
+	max-width:855px;
+	margin: auto;
+	padding-left:15%;
+}
+
+header {
+	background:white;
+	overflow:auto;
+}
+
+header h1 {
+	float:left;
+	width:570px;
+	padding-left: 10%;
+}
+
+header nav {
+	float:right;
+	width:285px;
+}
+
+main {
+	background:white;
+}
+/* Could not get the lightbult to the right side, will come back to it later
+div.light{	
+}
+*/
+
+.article1 {
+	float:left;
+	width:570px;
+}
+
+.content {
+	float:left;
+	width:570px;
+	padding-left: 10%;
+}
+.contact {
+	float:left;
+	width:570px;
+	padding-left: 10%;
+}
+
+.sitemap {
+	float:right;
+	width:285px;
+}
