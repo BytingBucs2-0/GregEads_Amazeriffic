@@ -21,7 +21,7 @@ header.container, main.container, footer.container {
 
 header {
 	background:white;
-	overflow:auto;
+	overflow:hidden;
 }
 
 header h1 {
@@ -37,11 +37,19 @@ header nav {
 
 main {
 	background:white;
+	overflow: hidden;
 }
-/* Could not get the lightbult to the right side, will come back to it later
-div.light{	
+
+footer {
+	clear: both;
+	overflow: hidden;
 }
-*/
+
+.light{
+	float:right;
+	width:285px;
+}
+
 
 .article1 {
 	float:left;
@@ -63,3 +71,4 @@ div.light{
 	float:right;
 	width:285px;
 }
+
